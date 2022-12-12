@@ -9,13 +9,7 @@ import (
 	"testing"
 	"time"
 
-<<<<<<< HEAD
-=======
 	"github.com/pingcap/errors"
-	"github.com/pingcap/failpoint"
-	backuppb "github.com/pingcap/kvproto/pkg/brpb"
-	"github.com/pingcap/kvproto/pkg/import_sstpb"
->>>>>>> 7e5086c475 (br: add GetTSWithRetry func (#38663))
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/tidb/br/pkg/gluetidb"
 	"github.com/pingcap/tidb/br/pkg/metautil"
